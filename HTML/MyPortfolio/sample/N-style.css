@@ -18,9 +18,9 @@ body {
 
 ul {
     position: fixed;
-    top: 4%;
-    left: 0;
-    height: 5%;
+    top: 5%;
+    left: 5.7%;
+    /* height: 5%; */
     transform: translateY(-50%);
     margin-top: 0;
     padding: 0;
@@ -30,17 +30,20 @@ ul {
 ul li {
     list-style: none;
     float: left;
-    top: 5%;
-    margin-left: 10px;
+    /* top: 5%; */
+    margin-left: 25px;
 }
 
 ul li a {
     display: block;
     text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #000;
     height: 30px;
     line-height: 30px;
-    font-size: 25px;
-    background: wheat;
+    font-size: 20px;
+    /* background: wheat; */
 }
 
 a:hover {
@@ -56,14 +59,28 @@ a:hover {
 
 #container div h1 {
     position: absolute;
-    top: 50%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
     transform: translateY(-50%);
+    font-size: 25px;
+    top: 65%;
+    left: 15%;
     width: 100%;
-    text-align: center;
     margin: 0;
     padding: 0;
-    text-transform: uppercase;
     color: rgba(255, 255, 255, 0.95);
+}
+
+#container div p {
+    position: absolute;
+    bottom: 25.5%;
+    left: 15%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 23px;
+    color: aliceblue;
 }
 
 #container div h2 {
@@ -83,6 +100,7 @@ a:hover {
 
 #container div {
     position: relative;
+    
 }
 
 #container div#home {
@@ -139,7 +157,7 @@ a:hover {
     border-radius:  0 8cqw 8cqw 0;
 }
 
-img {
+.box1 img {
     position: absolute;
     top: 65px;
     left: 0;
@@ -148,4 +166,35 @@ img {
     margin: auto;
     /* border */
     /* opacity: 100%; */
+}
+
+.box1 div.SocMed {
+    position: absolute;
+    bottom: -66%;
+    width: 25%;
+}
+
+.box1 div.fb {
+    top: -5px;
+    left: 35%;
+}
+
+.box1 div.ins {
+    top: -2px;
+    left: 100%;
+}
+
+.box1 div.twt {
+    left: 185%;
+    width: 60%;
+}
+
+
+.logo img {
+    position: fixed;
+    top: 25px;
+    left: 3%;
+    width: 50px;
+    z-index: 2;
+    /* margin: auto; */
 }
