@@ -189,6 +189,16 @@ a:hover {
     width: 60%;
 }
 
+.box1 div.email {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: aliceblue;
+    text-align: right;
+    top: 89%;
+    right: -40%;
+    width: 50%;
+}
+
 
 .logo img {
     position: fixed;
