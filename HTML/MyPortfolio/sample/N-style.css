@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
 .bg {
     background-image: url("pc_bg1.png");
     background-size: cover;
@@ -14,19 +15,22 @@ body {
     width: 100%;
     height: 100%;
 }
+
 ul {
     position: fixed;
-    top: 5%;
-    left: 0%;
+    top: 4%;
+    left: 0;
+    height: 5%;
     transform: translateY(-50%);
-    margin: 0;
+    margin-top: 0;
     padding: 0;
     z-index: 1;
 }
 
 ul li {
     list-style: none;
-    float: left;;
+    float: left;
+    top: 5%;
     margin-left: 10px;
 }
 
@@ -59,21 +63,89 @@ a:hover {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-    color: white;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+#container div h2 {
+    position: absolute;    
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20vmax;
+    transform: translateY(-50%);
+    top: 30%;
+    left: 5%;
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+    color: rgba(21, 21, 21, 0.950);
 }
 
 #container div {
     position: relative;
+}
+
+#container div#home {
+    /* background: rgba(255, 0, 0, 0.24); */
+    /* background-image: url("pc_bg1.png"); */
+    
     width: 100%;
     height: 100%;
 }
 
-#container div#home {
-    background: rgba(255, 0, 0, 0.24);
-    /* background-image: url("pc_bg1.png"); */
-}
-
 #container div#about {
     background: rgba(0, 0, 255, 0.189);
+    
+    width: 100%;
+    height: 100%;
 }
 
+.box1 {
+    background-color: rgba(21, 21, 21, 0.950);
+    position: fixed;
+    top: 12%;
+    left: 25%;
+    right: 0;
+    width: 25%;
+    height: 75%;
+    /* margin: auto; */
+    /* border-radius: 30% 0 0 0; */
+    /* border-radius: 20dvh; */
+    border-radius: 13cqw 0 0 0;
+}
+.box2 {
+    background-color: rgba(21, 21, 21, 0.950);
+    position: fixed;
+    top: -28%;
+    left: 51%;
+    right: 0;
+    width: 25%;
+    height: 40%;
+    /* border-radius: 30% 0 0 0; */
+    /* border-radius: 20dvh; */
+    border-radius:  0 0 13cqw 0;
+}
+
+.box_D {
+    background-color: rgba(21, 21, 21, 0.950);
+    position: fixed;
+    top: -103%;
+    left: 51%;
+    right: 0;
+    width: 15%;
+    height: 33%;
+    /* border-radius: 30% 0 0 0; */
+    /* border-radius: 20dvh; */
+    border-radius:  0 8cqw 8cqw 0;
+}
+
+img {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    right: 0;
+    width: 75%;
+    margin: auto;
+    /* border */
+    /* opacity: 100%; */
+}
