@@ -4,6 +4,15 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.logo img {
+    position: fixed;
+    top: 25px;
+    left: 3%;
+    width: 50px;
+    z-index: 2;
+    /* margin: auto; */
+}
+
 .bg {
     background-image: url("pc_bg1.png");
     background-size: cover;
@@ -112,8 +121,7 @@ a:hover {
 }
 
 #container div#about {
-    background: rgba(0, 0, 255, 0.189);
-    
+    background: rgba(24, 19, 171, 0.56);
     width: 100%;
     height: 100%;
 }
@@ -199,12 +207,74 @@ a:hover {
     width: 50%;
 }
 
+.box1_1 img {
+    background-color: transparent;
+    position: absolute;
+    top: 40px;
+    left: -10%;
+    width:60%;
+}
 
-.logo img {
-    position: fixed;
-    top: 25px;
-    left: 3%;
-    width: 50px;
-    z-index: 2;
-    /* margin: auto; */
+
+#about div.abtme_tt {
+    position: absolute;
+    
+    top: 18%;
+    left: 42%;
+    width:50%;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 1000;
+}
+
+#about div.abtme {
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    width:50%;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+
+#about div.abtlikes_tt {
+    position: absolute;
+    
+    top: 43%;
+    left: 42%;
+    width:50%;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 1000;
+}
+
+#about div.abtlikes {
+    position: absolute;
+    top: 47%;
+    left: 42%;
+    width:50%;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+
+#about div.abtskills_tt {
+    position: absolute;
+    
+    top: 56%;
+    left: 42%;
+    width:50%;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 1000;
+}
+
+#about div.abtskills {
+    position: absolute;
+    top: 60%;
+    left: 42%;
+    width:50%;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
 }
