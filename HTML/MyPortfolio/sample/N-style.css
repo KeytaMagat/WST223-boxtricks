@@ -71,10 +71,10 @@ a:hover {
     text-align: center;
     text-transform: uppercase;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20vmax;
     transform: translateY(-50%);
-    top: 30%;
-    left: 5%;
+    font-size: 24.8vmax;
+    top: 27.5%;
+    left: 20%;
     width: 100%;
     margin: 0;
     padding: 0%;
@@ -132,7 +132,7 @@ a:hover {
     top: -103%;
     left: 51%;
     right: 0;
-    width: 15%;
+    width: 14%;
     height: 33%;
     /* border-radius: 30% 0 0 0; */
     /* border-radius: 20dvh; */
